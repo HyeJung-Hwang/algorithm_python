@@ -8,10 +8,13 @@
 -**deque** 라이브러리로 구현
 
  from collections import deque  
- q=deque([4,5,6])  
+ q=deque([4,5,6]) 
+ 
+ 
  #앞에서 삭제, 뒤에서 삽입  
  q.append()  
- q.popleft()  
+ q.popleft() 
+ 
  #앞에서 삽입, 뒤에서 삭제
 
 
